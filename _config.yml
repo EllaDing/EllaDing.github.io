@@ -1,7 +1,7 @@
 # Site settings
 title: Yi's Blog
 SEOTitle: Yi的博客 | Yi's Blog
-header-img: img/home-bg-select.jpg
+header-img: img/home-bg-flower.jpg
 description: "Software Engineer"
 keyword: "博客, 个人网站, 互联网"
 url: "https://ellading.github.io"              # your host, for absolute URL
@@ -13,7 +13,7 @@ future: true
 # SNS settings
 RSS: false
 github_username:    EllaDing
-#linkedin_username:  firstname-lastname-idxxxx
+linkedin_username: yi-ding-columbia-university
 
 
 

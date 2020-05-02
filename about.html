@@ -1,24 +1,12 @@
 ---
 layout: page
 title: "About"
-description: "About me"
+description: "It's never too late to learn anything."
 header-img: "img/about-bg-piano-rose.jpg"
 multilingual: true
 ---
-
-{% include multilingual-sel.html %}
-
-<!-- Chinese Version -->
-<div class="zh post-container">
-    {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
-    {{ about_zh | markdownify }}
-</div>
-
-<!-- English Version -->
-<div class="en post-container">
-    {% capture about_en %}{% include about/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
-</div>
+{% capture about %}{% include about.md %}{% endcapture %}
+{{ about | markdownify }}
 
 
 {% if site.disqus_username %}
