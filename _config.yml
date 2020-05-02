@@ -1,7 +1,7 @@
 # Site settings
-title: Yi Blog
-SEOTitle: Yi的博客 | Yi Blog
-header-img: img/home-bg.jpg
+title: Yi's Blog
+SEOTitle: Yi的博客 | Yi's Blog
+header-img: img/home-bg-select.jpg
 description: "Software Engineer"
 keyword: "博客, 个人网站, 互联网"
 url: "https://ellading.github.io"              # your host, for absolute URL
@@ -54,7 +54,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: yi
+disqus_username: ellading-github-io
 
 # Netease settings
 netease_comment: false
@@ -64,10 +64,10 @@ netease_comment: false
 # Analytics settings
 # Baidu Analytics
 # ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#
+## Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
 
 
 
@@ -80,8 +80,7 @@ sidebar-avatar: /img/about-me.jpg      # use absolute URL, seeing it's used in b
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
 
 # Progressive Web Apps
